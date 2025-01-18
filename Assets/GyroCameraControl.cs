@@ -5,7 +5,7 @@ using UnityEngine;
 public class GyroSender : MonoBehaviour
 {
     private UdpClient udpClient;
-    private string serverIP = "192.168.137.122"; // Broadcast IP for local network
+    private string serverIP = "192.168.137.137"; // Broadcast IP for local network
     private int port = 12345;
     private Vector3 rot; // Rotation rate
     private string mov; // Movement direction

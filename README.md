@@ -8,15 +8,9 @@ ESP8266 → Handles WebSocket communication & motor control.
 ESP32-CAM → Streams live video feed.
 WebSocket Server → Enables real-time communication.
 📂 Project Structure
-scss
-Copy
-Edit
-VR-Controlled-Bot/
 │── Unity_bot/  
 │   ├── Assets/  
-│   │   ├── WebSocket (Contains server & hardware-related files)  
-│   ├── APK (Unity Android application)  
-│── Hardware/ (ESP8266 & ESP32-CAM code)  
+│   │   ├── WebSocket (Contains server & hardware-related files; zipped folder)   
 │── README.md  
 ⚡ Key Features
 ✅ Head-tracking control – Move the bot by tilting your head.
